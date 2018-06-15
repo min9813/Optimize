@@ -40,7 +40,7 @@ function y2 = diff_prob1(x)
 endfunction
 
 function dd1 = diff2_prob1(x)
-	dd1 = 2/x**3+exp(3);
+	dd1 = 2/x**3+exp(x);
 endfunction
 
 function y3 = prob2(x)
@@ -52,7 +52,7 @@ function y4 = diff_prob2(x)
 endfunction
 
 function dd2 = diff2_prob2(x)
-	dd2 = -25*sin(5*x) + x;
+	dd2 = -25*sin(5*x) + 2;
 endfunction
 
 
